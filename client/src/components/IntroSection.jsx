@@ -5,14 +5,14 @@ const IntroSection = () => {
   return (
     <div id="introsection">
       <h1>
-        Introducing Talkbot
+        Introducing Genius AI
         <BotResponse response=" - The Ultimate AI Assistant" />
       </h1>
       <h2>
         A cutting-edge AI-powered app that provides instant answers to any
         question you may have. With Talkbot, you'll never be left searching for
         answers again. Whether you need information for school or work, or just
-        want to know the latest news, Talkbot has you covered.
+        want to know the latest news, GeniusAI has you covered.
       </h2>
       Features:
       <ul>
