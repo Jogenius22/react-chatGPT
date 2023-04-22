@@ -70,7 +70,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div>
+    <>
       <header>
         <div className="menu">
           <button onClick={() => setShowMenu(true)}>
@@ -173,6 +173,8 @@ const Home = () => {
                             chatLogRef={chatLogRef}
                           />
                         </div>
+                      ) : err ? (
+                        <Error err={err} />
                       ) : (
                         <Loading />
                       )}
